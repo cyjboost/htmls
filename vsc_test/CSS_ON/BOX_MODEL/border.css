@@ -1,0 +1,33 @@
+.border {
+    width: 80rem;
+    height: 500px;
+    border-width: 3px;
+    border-color: brown;
+    border-style: dotted;
+    border-top: springgreen 2px solid
+}
+
+.table {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border: black 3px solid;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table th {
+    border: 3px solid black;
+}
+
+.table td {
+    border: 3px solid black;
+}
+
+#box_model_div {
+    border: 1px solid red;
+    background-color: pink;
+    padding: 2em;
+    width: auto;
+    height: auto;
+}

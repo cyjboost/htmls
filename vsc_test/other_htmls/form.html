@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单和表单域和表单元素</title>
+</head>
+<body>
+    <!-- action 指向服务器提交页面 -->
+    <form action="" method="get" name="此表单域名称1">
+        Username: <input type="text" placeholder="Example Username" name="Username"> <br>  
+        Password: <input type="password" placeholder="Example Password" name="Password">  <br> 
+         <!-- placeholder就是输入框未输入时显示文字 -->
+         Freaking ideas: I do have <input type="radio" name="FI" value="doFI"> I don't have <input type="radio" name="FI"value="donFI"> <br>
+         <!-- radio属于单选按钮 加上name即可标记为同级标签 -->
+         Favourite Things: <br>
+          Upgrade Windows <input type="checkbox" name="FT" value="UW"> <br> 
+          Lead Arch to death <input type="checkbox" name="FT" value="LATD"> <br>
+         Keep coding until death is coming <input type="checkbox" name="FT" value="KCUDIC"> <br>
+         <!-- checkbox是多选按钮 同radio可加上标记 -->
+         <input type="checkbox" checked="checked" id="agreetoreg"><label for="agreetoreg">I agree to register on this site.</label> <br>
+         
+         
+         The place you're going to: <select name="places" id="places">
+             <option value="SARS">SARS</option>
+             <option value="The Earth">The Earth</option>
+             <option selected>Select please!</option>
+         </select><br>
+         <!-- label标签可以点这里却起到在那里点击的效果 -->
+         <input type="submit" name="submit" value="Submit"> <br>
+    </form>
+</body>
+</html>

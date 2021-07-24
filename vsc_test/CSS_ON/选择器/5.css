@@ -1,0 +1,7 @@
+input:focus {
+    background-color: skyblue;
+}
+body {
+    background-color: rgb(32, 27, 27);
+    color: snow;
+}
