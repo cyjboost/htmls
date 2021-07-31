@@ -1,0 +1,31 @@
+.downbox li {
+    height: 1.5em;
+    line-height: 1em;
+    display: inline-block;
+    color: black;
+    text-align: left;
+    border-top: 1px gray solid;
+}
+
+.downbox {
+    width: max-content;
+}
+
+.downl,
+.downm {
+    float: left;
+    text-align: center;
+}
+
+.downl {
+    margin-right: 10px;
+}
+
+.downm {}
+
+.downr {
+    float: right;
+    margin-left: 10px;
+    text-align: right;
+    width: 4em;
+}
